@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+
+# Logs and output files
+logs/
+*.log
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+
+# Ignore output video (or track via LFS if desired)
+src/output.mp4
+output.mp4
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
